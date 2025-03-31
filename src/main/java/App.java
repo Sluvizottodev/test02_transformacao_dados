@@ -1,5 +1,7 @@
-import service.PdfTableExtractor;
+import java.util.List;
+import model.Procedimento;
 import service.CsvWriter;
+import service.PdfTableExtractor;
 import service.ZipService;
 
 public class App {

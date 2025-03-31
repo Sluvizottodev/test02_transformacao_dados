@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.List;
-
 import model.Procedimento;
 
 public class CsvWriter {
@@ -14,7 +13,7 @@ public class CsvWriter {
             
             procedimentos.forEach(p -> 
                 writer.println(String.format("\"%s\",\"%s\",\"%s\"", 
-                    p.getCodigo(), p.getDescricao(), p.getTipo())));
+                    p.getCod(), p.getDescricao(), p.getTipo())));
         } catch (FileNotFoundException e) {
             throw new RuntimeException("Erro ao escrever CSV", e);
         }

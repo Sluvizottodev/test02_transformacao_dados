@@ -1,0 +1,6 @@
+App.class
+service\PdfTableExtractor.class
+model\Colunas.class
+service\ZipService.class
+model\Procedimento.class
+service\CsvWriter.class

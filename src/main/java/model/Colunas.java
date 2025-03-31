@@ -1,11 +1,11 @@
 package model;
 import java.util.Arrays;
 
-publlic enum Colunas {
+public enum Colunas {
     OD("Odontológico"),
     AMB("Ambulatorial");
 
-    privete String descricao;
+    private String descricao;
 
     Colunas(String descricao) {
         this.descricao = descricao;
