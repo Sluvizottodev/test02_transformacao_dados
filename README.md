@@ -16,7 +16,8 @@ src/
 ├── main/
 │ ├── java/
 │ │ ├── model/
-│ │ │ └── Procedimento.java # Modelo de dados
+│ │ │ ├── Colunas.java
+│ │ │ └── Procedimento.java 
 │ │ ├── service/
 │ │ │ ├── PdfProcessor.java # Processamento de PDF
 │ │ │ ├── CsvWriter.java # Geração de CSV
