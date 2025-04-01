@@ -6,10 +6,9 @@
 Aplicação Java que processa o PDF "Rol de Procedimentos e Eventos em Saúde", extrai os dados e gera um arquivo CSV compactado com as abreviações substituídas por descrições completas.
 
 ## 🛠️ Tecnologias Utilizadas
-- **Java 17+**
+- **Java 21**
 - Apache PDFBox (para extração de PDF)
 - OpenCSV (para geração de CSV)
-- java.util.zip (para compactação)
 
 ## 🏗️ Estrutura do Projeto
 ```
@@ -37,6 +36,6 @@ src/
 
 ## 🚀 Como Executar
 1. **Pré-requisitos**:
-   - Java 17+ instalado
+   - Java instalado
    - Maven configurado
 
